@@ -1,0 +1,7 @@
+
+white = #fffffff
+green=#6bbf43
+grey=#f3f4f8
+green-2=#f3f4f8
+grey-2=#eeeeed
+
