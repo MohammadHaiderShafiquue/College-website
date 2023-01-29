@@ -240,10 +240,13 @@ margin:0;
 
 
         }
+        
         .course-featured-card{
 align-items: center;
         }
-        
+        .course-featured-card:hover{
+            transform: scale(1.2);
+        }
 .course-lead-text ul  {
     border: 3px solid var(--grey-2);
     white-space: nowrap;
