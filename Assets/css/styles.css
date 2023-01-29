@@ -2,7 +2,7 @@
 --white:#fff;
 --green:#6bbf43;
 --grey:#f3f4f8;
---green-2:rgb(240,240,240);
+--green-2:rgb(255,255,255);
 --grey-2:#eeeeed;
 --black:black;
 }
@@ -34,7 +34,7 @@ text-decoration: none;
 }
 .navbar-nav{
 
-    margin-left: 300px;
+    margin-left: 250px;
     align-items: center;
     
 }
@@ -188,6 +188,7 @@ text-align: center;
 .course-schedule ul {
 display: flex;
 
+
 }
 .course-schedule ul li{
 
@@ -235,54 +236,44 @@ background-color: var(--green);
       
         .courses-offered-wrapper .carousel-item{
 
-margin: 30px;
+margin:0;
 
 
         }
         .course-featured-card{
 align-items: center;
-
         }
         
-        
-
-        .course-tabs ul{
-
-            text-decoration: none;
-            list-style: none;
-            display: flex;
-            margin-left: 250px;
-            border: 2px solid var(--green-2);
-            width: 60%; 
-            border-top-left-radius:15px ;
-            border-bottom-left-radius: 15px;
-            border-top-right-radius: 15px;
-            border-bottom-right-radius: 15px;
-           
-        }
-        .course-tabs ul li{
-            margin: 10px;
-            border-right: 3px solid var(--green-2);
-            
-        }
-        
-        .course-tabs ul li a{
-text-decoration: none;
-color:var(--black);
-margin: 15px;
+.course-lead-text ul  {
+    border: 3px solid var(--grey-2);
+    white-space: nowrap;
+    padding-right: 0;
+   padding-left: 0;
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   border-bottom-left-radius:30px ;
+   border-bottom-right-radius: 30px;
+   margin-bottom: 100px;
 
 
-        }
-        .course-tabs ul li :hover{
-            background-color: var(--green);
-            color:white;
-            font-weight: bold;
-            white-space: nowrap;
-        }
-        
+}
+.course-lead-text ul li{
+    border-right: 3px solid var(--grey-2);
+    
+}
+
+.course-lead-text ul li a:hover{
+background-color: var(--green);
+color:var(--white);
+font-weight: bold;
+
+
+}
+ 
+
 /*Generic Classes */
 .border-styling{
-border-right: 3px solid var(--grey);
+border-right: 3px solid var(--grey-2);
 
 }
 .lead-text{
