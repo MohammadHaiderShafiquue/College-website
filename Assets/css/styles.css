@@ -73,7 +73,7 @@ border-radius: 50%;
 margin-right: 15px;
 }
 
-.carousel-caption{
+.home-hero-wrapper .carousel-caption{
 
 text-align: center;
 margin-top: 10px;
@@ -81,15 +81,15 @@ height: 660px;
 
 
 }
-.carousel-caption h1{
+.home-hero-wrapper .carousel-caption h1{
 
     font-weight: bold;
     font-size:70px;
 }
-.carousel-caption p{
+.home-hero-wrapper .carousel-caption p{
     font-weight: 500;
 }
-.form-control{
+.home-hero-wrapper .form-control{
       border-top-left-radius: 30px;
       border-left: 20px;
       border-bottom-left-radius: 30px;
@@ -100,7 +100,7 @@ height: 660px;
    
 
 }
-.form-select{
+.home-hero-wrapper .form-select{
 border: none;
 border-top-left-radius: 0px;
       border-left: 0px;
@@ -113,13 +113,13 @@ height: 98%;
 
 }
 
-.search-input{
+.home-hero-wrapper .search-input{
 
     align-items: center;
     height: 60px;
     
 }
-.search-input button{
+.home-hero-wrapper .search-input button{
     background-color: var(--green);
     color:var(--white);
     border: none;
@@ -130,13 +130,13 @@ height: 98%;
     height: 60px;
 
 }
-.search-input button:hover{
+.home-hero-wrapper .search-input button:hover{
 color: white !important;
 font-weight: bold;
 
 
 }
-.search-input{
+.home-wrapper .search-input{
 overflow: hidden;
 
 }
