@@ -255,11 +255,16 @@ align-items: center;
    border-bottom-right-radius: 30px;
    margin-bottom: 100px;
 
-
 }
 .course-lead-text ul li{
     border-right: 3px solid var(--grey-2);
     
+}
+.course-lead-text ul li a{
+    color: var(--black);
+}
+.course-lead-text ul li:nth-child(1){
+    border-left: 3px solid var(--grey-2);
 }
 
 .course-lead-text ul li a:hover{
