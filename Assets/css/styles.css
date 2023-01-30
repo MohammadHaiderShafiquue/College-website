@@ -240,8 +240,20 @@ margin:0;
 
 
         }
+        .courses-offered-wrapper img{
+            border:1px var(--white);
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;   
+        }
         
-     
+     .courses-offered-wrapper .card {
+
+        border:2px solid var(--grey);
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+     }
         .course-featured-card:hover{
             transform: scale(1.2);
         }
