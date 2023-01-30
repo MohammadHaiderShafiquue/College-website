@@ -276,27 +276,97 @@ font-weight: bold;
 
 }
  
-.college-staff-wrapper{
+ 
+ 
+ 
+  .course-teacher-wrapper .section-header {
+      padding-bottom: 15px;
+  }
+  .course-teacher-wrapper .section-header h2 {
+      font-weight: 700;
+      color: var(--white);
+  }
+  .course-teacher-wrapper .section-header p {
+    color:var(--white);
+    width: 40%;
+    margin:auto;
+  }
+  
+  .course-teacher-wrapper .icon-area {
+    text-align: center;
+  }
+  .course-teacher-wrapper .icon-area i {
+    color: var(--white);
+    font-size: 80px;
+    margin-bottom: 20px;
+  }
+  .course-teacher-wrapper .content p {
+   color: white;
+    width: 60%;
+    margin: auto;
+  }
+  .course-teacher-wrapper .person {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid var(--white);
+    margin-top: 50px;
+    box-shadow:  0px 0px 10px 10px rgb(106, 102, 102);
+  }
+  .course-teacher-wrapper .person img {
+    width: 100%;
+    
+  }
+  .course-teacher-wrapper .content h5 {
+    font-weight: 900;
+    margin-top: 15px;
+    color:var(--white)
+  }
+  .course-teacher-wrapper .content h6{
+    color:var(--white);
+  }
+  .course-teacher-wrapper  {
+    background: url(backgroundforexperts.jpg);
+    background-size: cover;
     position: relative;
-    height: 300px;
- }
- .college-staff-wrapper img{
+    padding: 80px 0;
+  }
+  
+ .course-teacher-wrapper::before{
+
+    content: '';
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.7178221630449055) 21%, rgba(0,0,0,0.2024160005799195) 50%);
     height: 100%;
     width: 100%;
- }
- 
-
-.college-staff-wrapper .description{
     position: absolute;
-left: 0;
-right: 0;
-top:30%;
-bottom: 10%;
+    top:0;
+    left:0;
+    }
+     .course-teacher-wrapper .carousel-indicators {
+      bottom: -80px;
+  }
+      .course-teacher-wrapper .carousel-indicators [data-bs-target] {
+      width: 60px;
+      height: 10px;
+      background-color:white;
+  }
+      
+      
+      @media (min-width: 768px) and (max-width: 991px){
+          .section-header p {
+              width: 85%;
+          }
+          .content p {
+              width: 95%;
+          }
+      }
+      
+     
 
-text-align: center;
-color: var(--white);
-
-}
 /*Generic Classes */
 .border-styling{
 border-right: 3px solid var(--grey-2);
