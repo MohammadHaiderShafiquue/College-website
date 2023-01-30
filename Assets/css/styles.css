@@ -241,9 +241,7 @@ margin:0;
 
         }
         
-        .course-featured-card{
-align-items: center;
-        }
+     
         .course-featured-card:hover{
             transform: scale(1.2);
         }
@@ -278,7 +276,27 @@ font-weight: bold;
 
 }
  
+.college-staff-wrapper{
+    position: relative;
+    height: 300px;
+ }
+ .college-staff-wrapper img{
+    height: 100%;
+    width: 100%;
+ }
+ 
 
+.college-staff-wrapper .description{
+    position: absolute;
+left: 0;
+right: 0;
+top:30%;
+bottom: 10%;
+
+text-align: center;
+color: var(--white);
+
+}
 /*Generic Classes */
 .border-styling{
 border-right: 3px solid var(--grey-2);
