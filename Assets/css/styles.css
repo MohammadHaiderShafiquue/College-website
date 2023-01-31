@@ -375,15 +375,108 @@ font-weight: bold;
           .content p {
               width: 95%;
           }
+          
       }
-      
-     
+    
+.blog-event-wrapper{
+    align-content: flex-start;
+}   
+    .blog-event-wrapper img{
+        height: 100%; 
+        overflow: hidden;
+        object-fit: cover;
+    }
+    .blog-event-left ul{
+        display: flex;
+    }
+    .blog-event-left ul li{
 
+        margin:10px;
+    }
+    .blog-event-left a{
+color: var(--black);
+
+    }
+    .blog-event-wrapper .blog-event-left img{
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+
+    }
+    .blog-event-left .card{
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    
+    .blog-event-left .upload-info {
+        display: flex;
+        justify-content:space-between;
+        color: var(--black);
+        text-align: center;
+
+    }
+    .blog-event-left .upload-info {
+        
+        font-weight: bold;
+        font-size: 13px;
+        margin-right:12px;
+    }
+  .blog-wrapper{
+    justify-content: space-between;
+  }
+  
+  .event-detail-wrapper{
+color: var(--white);
+
+  }
+  .event-detail-wrapper .event-date{
+    text-align: left;
+  }
+  .event-details a{
+    color: var(--white);
+  }
+  .event-details{
+    text-align: left; 
+    margin-left: 8px;
+  }
+  .event-details span{
+    color: var(--green);
+   
+  }
+  .event-details ul{
+    display: flex;
+    text-align: left;
+  }
+  .event-details ul li{
+
+    list-style: none;
+    margin: 5px;
+    
+  }
+  .event-detail-wrapper .event-date h1{
+ color: var(--green);
+  }
+  .blog-event-right .card{
+border-top-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px;
+
+  }
+  .blog-event-right img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    
+  }
 /*Generic Classes */
 .border-styling{
 border-right: 3px solid var(--grey-2);
 
 }
+
 .lead-text{
     
     text-align: center;
@@ -398,10 +491,13 @@ border-right: 3px solid var(--grey-2);
         height: 1px;
         
         border-top: 2px solid var(--green);
-        margin: 1rem 0;
         padding: 3px;
     
         
     }
-    
+    .card-margin{
+
+   
+        padding:40px 0;     
+    }
   
