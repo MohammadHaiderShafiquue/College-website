@@ -471,6 +471,57 @@ border-bottom-right-radius: 30px;
     border-bottom-right-radius: 30px;
     
   }
+  .subscription-wrapper  {
+    background: url(sub-bg.jpg);
+    background-size:cover;
+    position: relative;
+    padding: 80px 0;
+    
+  }
+  .subscription-wrapper .search-input{
+justify-content: center;  }
+ 
+    .subscription-wrapper .form-control{
+        
+        border-top-left-radius: 30px;
+        border-left: 20px;
+        border-bottom-left-radius: 30px;
+        border-right: 1.5px solid var(--grey);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        height: 45px;
+     width: 35%;
+  
+  }
+  .subscription-wrapper .search-input button{
+    background-color: var(--green);
+    color:var(--white);
+    border: none;
+    width: 10%;
+    border-top-right-radius: 30px;
+    border-right:20px;
+    border-bottom-right-radius: 30px;
+    height: 45px;
+
+}
+.subscription-wrapper .search-input button:hover{
+color: white !important;
+font-weight: bold;
+
+
+}
+
+.subscription-text{
+    text-align: center;
+}
+.subscription-text h4{
+color: var(--white);
+font-weight: 600;
+font-size: 30px;
+}
+.subscription-text p{
+    color: var(--white);
+}
 /*Generic Classes */
 .border-styling{
 border-right: 3px solid var(--grey-2);
