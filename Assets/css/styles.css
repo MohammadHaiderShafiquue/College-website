@@ -495,6 +495,102 @@ font-size: 30px;
 .subscription-text p{
     color: var(--white);
 }
+.student-testimonial{    
+    background: blueviolet;
+    font-family: montserrat;
+}
+.student-testimonial section {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+.student-testimonial .section-header{
+    position: relative;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    padding-bottom: 25px;
+    color: #fff;
+}
+.student-testimonial .section-header:after{
+    content: '';
+    height: 3px;
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 100px);
+    background: #fff;
+}
+.student-testimonial .section-header span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+}
+.student-testimonial .testimonials{
+    max-width: 1000px;
+    padding: 0 15px 50px;
+    margin: 0 auto 80px auto;
+}
+.student-testimonial .single-item{
+    background: #fff;
+    color: #111;
+    padding: 15px;
+    margin: 50px 15px;
+}
+.student-testimonial .profile{
+    margin-bottom: 30px;
+    text-align: center;    
+}
+.student-testimonial .img-area {
+	margin: 0 15px 15px 15px;
+}
+.img-area img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	border: 7px solid blueviolet;
+}
+.student-testimonial .content{
+    font-size: 18px;
+}
+.student-testimonial .content p {
+	text-align: justify;
+}
+.student-testimonial .content p span {
+	font-size: 48px;
+	margin-right: 20px;
+    color: blueviolet;
+}
+.student-testimonial .socials i {
+	margin-right: 25px;
+}
+.student-testimonial .bio h4 {
+	font-family: 'Berkshire Swash', cursive;
+}
+.student-testimonial .carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color: blueviolet;
+}
+
+@media (max-width:767px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Generic Classes */
 .border-styling{
@@ -527,5 +623,8 @@ border-right: 3px solid var(--grey-2);
     }
     .card-margin-2{
         padding: 80px 0;
+    }
+    .sec-spacing{
+padding: -150px 0;
     }
   
