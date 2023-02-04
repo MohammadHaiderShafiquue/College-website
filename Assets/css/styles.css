@@ -714,6 +714,7 @@ background-color: var(--green);
     color:var(--white);
     font-weight: bold;
   }
+  
 /*Generic Classes */
 .border-styling{
 border-right: 3px solid var(--grey-2);

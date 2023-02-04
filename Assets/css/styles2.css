@@ -8,8 +8,7 @@
     body{
     
     background-color:var(--white);
-    margin: 0; 
-overflow-x: 0;    
+    
     }
     .navbar-nav .nav-link{
     
@@ -358,7 +357,18 @@ margin: 10px;
 
 
               }
+              @media (max-width: 1399.9px) { 
+                html,body{
+
+overflow-x: hidden;             }
+              }
+              @media(min-width:375px){
+             
+              html,body  {
+                overflow-x: hidden;
+              }
               
+            }
    /*Generic Classes*/
    .sec-spacing{
     padding: 40px 0;
