@@ -7,8 +7,9 @@
     }
     body{
     
-    background-color:rgb(255,255,255);
-    margin: 0; overflow-x: hidden;
+    background-color:var(--white);
+    margin: 0; 
+overflow-x: 0;    
     }
     .navbar-nav .nav-link{
     
@@ -77,8 +78,8 @@
 background: url(hero-image.jpg);
 background-size: cover;
 padding: 120px 0;
-padding-left: 0;
-padding-right: 0;
+width: 100%;
+
 text-align: center;
 
     }
@@ -86,6 +87,29 @@ text-align: center;
 font-weight: bold;
 font-size:59px
 
+    }
+    .page-tite ul{
+        display: flex;
+    }
+    .page-tite ul li{
+        list-style: none;
+        margin: 3px;
+    }
+    .page-tite ul li:nth-child(2){
+        font-weight: bold;
+    }
+    .page-tite ul li:nth-child(3){
+
+font-weight:lighter;
+
+    }
+    .page-tite ul li:nth-child(4){
+        
+        font-weight: lighter;
+    }
+    .page-tite ul li:nth-child(5){
+        
+        font-weight: lighter;
     }
    .search-area{
 position: relative;
@@ -115,6 +139,226 @@ text-align: center;
     height: 30px;
     width: 30px;
    }
+   .teacher-avatar img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    
+    }
+    .teacher-avatar ul li{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 2px;
+    
+    
+    }
+    .course-info{
+    text-align: center;
+    
+    }
+    .course-schedule ul {
+    display: flex;
+    
+    
+    }
+    .course-schedule ul li{
+    
+        margin: 15px;
+        list-style: none;
+        color: var(--green);
+    }
+    .course-schedule span{
+    color: var(--green);
+    margin-right: 5px;
+    
+    }
+    .courses-offered-wrapper{
+    
+        text-align: center;
+        
+            }
+            .courses-offered-wrapper img{
+                border:1px var(--white);
+                border-top-right-radius: 30px;
+                border-top-left-radius: 30px;   
+            }
+            
+         .courses-offered-wrapper .card {
+    
+            border:2px solid var(--grey);
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius: 30px;
+         }
+            .course-featured-card:hover{
+                transform: scale(1.2);
+            }
+            .footer .link-wrapper{
+                background-color: var(--grey);
+            }
+              .link-wrapper .first img{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+                
+              }
+              .link-wrapper .first ul{
+            
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 36px;
+            
+              }
+              .link-wrapper .first ul li{
+            
+            align-items: center;
+            list-style: none;
+            margin-bottom: 10px;
+            
+            
+              }
+              .link-wrapper .first ul li:nth-child(1){
+            color:var(--green);
+            font-weight: bold;
+            
+              }
+              .link-wrapper .first ul li:nth-child(2){
+            color:var(--black);
+            font-weight: 100;
+              }
+              .link-wrapper .first ul li:nth-child(4){
+                color:var(--black);
+                font-weight: 100;
+                  }
+                  .link-wrapper .first ul li:nth-child(6)
+              {
+            color:var(--black);
+            font-weight: 100;
+            
+              }
+              .link-wrapper .second ul{
+            
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 36px;
+            
+              }
+              .link-wrapper .second ul li:nth-child(1){
+            
+            padding-bottom: 12px;
+            font-weight: bold;
+            font-size: 20px;
+              }
+              .link-wrapper .second ul li{
+            list-style: none;
+            margin: 10px;
+            
+              }
+              .link-wrapper .second ul li:hover{
+            color:var(--green)
+            
+            
+              }
+              .link-wrapper .third ul{
+                padding-left: 0;
+                padding-right: 0;
+                padding-top: 90px;
+            
+            
+              }
+              .link-wrapper .third ul li{
+            
+                list-style: none;
+                margin: 10px;
+              }
+              .link-wrapper .third ul li:hover{
+                color:var(--green);
+              }
+              
+              .link-wrapper .fourth ul{
+            padding-left: 0;
+            padding-right: 0;
+            padding-top:40px;
+            margin-bottom: 20px;
+              }
+              .link-wrapper .fourth ul li{
+                list-style: none;
+                margin:10px
+              }
+              .link-wrapper ul li:nth-child(1){
+                font-size: 20px;
+                font-weight: bold;
+                
+                
+                
+              }
+              .link-wrapper .fourth ul li:nth-child(2){
+                font-weight: bold;
+              }
+              .link-wrapper .fourth ul li:nth-child(3){
+            font-weight: lighter;
+            font-size:14px;
+            
+              }
+              .link-wrapper .fourth ul li:nth-child(4){
+                font-weight: bold;
+              }
+              .link-wrapper .fourth ul li:nth-child(5)
+              {
+                font-weight: lighter;
+                font-size:14px;
+                
+              }
+              .link-wrapper .fourth ul li:nth-child(6){
+                font-weight: bold;
+              }
+              .link-wrapper .fourth ul li:nth-child(7)
+              {
+                font-weight: lighter;
+                font-size:14px;
+                
+              }
+              .link-wrapper .fifth img{
+            width: 70px;
+            height: 70px;
+            border: 1px solid var(--black);
+            
+              }
+              .link-wrapper .fifth ul li:nth-child(1)
+              {
+                font-weight: bolder;
+                font-size: 30px;
+              }
+              .link-wrapper .fifth ul li{
+                list-style: none;
+                margin: 10px;
+              }
+              .copy-right-wrapper{
+            background-color: var(--green);
+            
+              }
+              .copy-right-wrapper ul li{
+            
+                list-style: none;
+                margin: 10px;
+              }
+              
+              .copy-right-wrapper .wrapper-text{
+                justify-content: space-between;
+                color:var(--white);
+                font-weight: bold;
+              }
+              .grid-page-options-2 ul{
+                align-items: center;
+              }
+              .grid-page-options-2 ul li{
+list-style: none;
+margin: 10px;
+
+
+              }
+              
    /*Generic Classes*/
    .sec-spacing{
     padding: 40px 0;
