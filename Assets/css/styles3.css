@@ -248,6 +248,8 @@ font-weight:lighter;
       }
       .copy-right-wrapper{
     background-color: var(--green);
+    height: 40px;
+overflow: hidden;
 
       }
       

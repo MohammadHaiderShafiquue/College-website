@@ -293,6 +293,8 @@ text-align: center;
               }
               .copy-right-wrapper{
             background-color: var(--green);
+            height: 40px;
+overflow: hidden;
             
               }
               .copy-right-wrapper ul li{
