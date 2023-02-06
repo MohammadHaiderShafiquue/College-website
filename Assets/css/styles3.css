@@ -408,5 +408,10 @@ font-weight:lighter;
         .team .member:hover{
           transform: scale(1.2);
         }
+        @media (max-width: 1399.9px) { 
+          html,body{
+
+overflow-x: hidden;             }
+        }
         
         
