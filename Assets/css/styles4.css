@@ -319,13 +319,8 @@ text-align: center;
 margin: 20px;
 
               }
-             
-            
-
-              @media  (max-width: 1399.9px) { 
-                html,body{
-            
-                  overflow-x: hidden;       
-                    }
-                  
+              @media (max-width: 1399.9px) { 
+                html{
+      
+      overflow-x: hidden;             }
               }

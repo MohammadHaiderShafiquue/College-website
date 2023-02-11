@@ -413,7 +413,7 @@ overflow: hidden;
           transform: scale(1.2);
         }
         @media (max-width: 1399.9px) { 
-          html,body{
+          html{
 
 overflow-x: hidden;             }
         }

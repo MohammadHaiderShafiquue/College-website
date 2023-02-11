@@ -367,10 +367,9 @@ margin: 10px;
 color: var(--green);
 
    }
-   @media  (max-width: 1399.9px) { 
-    html,body{
-
-      overflow-x: hidden;       
-        }
+   @media (max-width: 1400px) {
+    html {
+      overflow-x: hidden;
       
+    }
   }
