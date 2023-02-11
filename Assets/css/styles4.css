@@ -9,6 +9,7 @@
     body{
     
     background-color:var(--white);
+    overflow-x: hidden;
     
     }
     .navbar-nav .nav-link{
@@ -318,12 +319,13 @@ text-align: center;
 margin: 20px;
 
               }
-              @media (max-width: 1399.9px) { 
-                html,body{
-      
-      overflow-x: hidden;             }
-              }
-              
-          
              
-          
+            
+
+              @media  (max-width: 1399.9px) { 
+                html,body{
+            
+                  overflow-x: hidden;       
+                    }
+                  
+              }

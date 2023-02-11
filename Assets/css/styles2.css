@@ -8,8 +8,10 @@
     body{
     
     background-color:var(--white);
+    overflow-x: hidden;
     
     }
+    
     .navbar-nav .nav-link{
     
         margin-left:15px;
@@ -77,8 +79,6 @@
 background: url(hero-image.jpg);
 background-size: cover;
 padding: 120px 0;
-width: 100%;
-
 text-align: center;
 
     }
@@ -335,8 +335,7 @@ text-align: center;
               .copy-right-wrapper{
             background-color: var(--green);
             height: 40px;
-overflow: hidden;
-            
+overflow: hidden;            
               }
               .copy-right-wrapper ul li{
             
@@ -358,18 +357,8 @@ margin: 10px;
 
 
               }
-              @media (max-width: 1399.9px) { 
-                html,body{
-
-overflow-x: hidden;             }
-              }
-              @media(min-width:375px){
-             
-              html,body  {
-                overflow-x: hidden;
-              }
               
-            }
+              
    /*Generic Classes*/
    .sec-spacing{
     padding: 40px 0;
@@ -378,4 +367,10 @@ overflow-x: hidden;             }
 color: var(--green);
 
    }
-   
+   @media  (max-width: 1399.9px) { 
+    html,body{
+
+      overflow-x: hidden;       
+        }
+      
+  }
